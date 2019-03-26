@@ -1,0 +1,10 @@
+<beans>
+    <bean name="student" class="listeningrain.cn.test.model.Student" scope="singleton">
+        <property name="name" value="老张"/>
+        <property name="age" value="24"/>
+    </bean>
+    <bean name="people" class="listeningrain.cn.test.model.People" scope="singleton">
+        <property name="name" value="老王"/>
+        <property name="age" value="22"/>
+    </bean>
+</beans>
